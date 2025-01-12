@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="Page-1" id="d1dM00PKW7SC8KkBVILR">
+    <mxGraphModel dx="1306" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eu8rOwvjgRA8qPj7Orxz-1" target="Eu8rOwvjgRA8qPj7Orxz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-1" value="Начальное состояние" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eu8rOwvjgRA8qPj7Orxz-2" target="Eu8rOwvjgRA8qPj7Orxz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-6" value="Поступил сигнал" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eu8rOwvjgRA8qPj7Orxz-5">
+          <mxGeometry x="-0.15" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-2" value="Ожидание сигнала" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eu8rOwvjgRA8qPj7Orxz-4" target="Eu8rOwvjgRA8qPj7Orxz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="320" />
+              <mxPoint x="720" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-8" value="Ложное срабатывание" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eu8rOwvjgRA8qPj7Orxz-7">
+          <mxGeometry x="-0.0276" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eu8rOwvjgRA8qPj7Orxz-4" target="Eu8rOwvjgRA8qPj7Orxz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-11" value="Сигнал подтвержден" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eu8rOwvjgRA8qPj7Orxz-10">
+          <mxGeometry x="-0.025" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-4" value="Проверка сигнала" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eu8rOwvjgRA8qPj7Orxz-9" target="Eu8rOwvjgRA8qPj7Orxz-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="585" y="530" />
+              <mxPoint x="740" y="530" />
+              <mxPoint x="740" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-14" value="Получение оповещения не подтверждено" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eu8rOwvjgRA8qPj7Orxz-12">
+          <mxGeometry x="0.3" y="1" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eu8rOwvjgRA8qPj7Orxz-9" target="Eu8rOwvjgRA8qPj7Orxz-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-17" value="Подтверждено получение оповещения" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eu8rOwvjgRA8qPj7Orxz-16">
+          <mxGeometry x="0.4" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-9" value="Отправка оповещения" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eu8rOwvjgRA8qPj7Orxz-15" target="Eu8rOwvjgRA8qPj7Orxz-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-20" value="Получена информация о ликвидации пожара" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eu8rOwvjgRA8qPj7Orxz-19">
+          <mxGeometry x="0.025" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-15" value="Мониторинг ситуации" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eu8rOwvjgRA8qPj7Orxz-18" value="Закрытие инцедента" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
